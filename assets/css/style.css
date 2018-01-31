@@ -1,15 +1,18 @@
-body{
+body, a{
     color: #777777;
     background-color: #ffffff;
     font-size: 15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
 }
 section {
     width:  100%;
     background-color: white;
 }
 input {
-    width:100%;
+    width:99%;
     background-color: white;
     height:20px;
 }
@@ -35,6 +38,11 @@ h1, #socialheader, #nametab {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.highlight:hover {
+    color:darkgoldenrod;
+    font-size: 105%;
+    font-weight: bolder;
+}
 .prompts {
     font-size: 15px;
     margin-bottom: 3px;
@@ -46,16 +54,29 @@ h1, #socialheader, #nametab {
     margin-top: 10px;
     padding: 6px;
 }
+.button:hover {
+    color: darkgoldenrod;
+    font-size: 140%;
+    font-weight: bolder;
+}
 .portfolioimgL, .portfolioimgR {
     width: 40%;
     display: inline-block;
-    float: left;
     position: relative;
+    float: left;
     background-color: transparent;
 }
 .portfolioimgR {
     float: right;
 }
+
+/* .portfolioimgL:hover, .portfolioimgR:hover {
+    width: 36%;
+    color: darkgoldenrod;
+    text-decoration-color: darkgoldenrod;
+    opacity:3;
+    /* border: 2px double darkgoldenrod; */
+} */
 .resize {
     margin: 0%;
     padding: 0%;
@@ -91,9 +112,15 @@ h1, #socialheader, #nametab {
     background-color: #4aaaa5;
 }
 .smallimg {
-    width: 33%;
-    height: 33%;
+    width: 32.5%;
+    height: 32.5%;
     margin: 0px;
+}
+.smallimg:hover {
+    /* width: 32%;
+    height: 32%; */
+    padding: 0%;
+    border: 2px double darkgoldenrod;
 }
 .social {
     width: 80%;
@@ -109,9 +136,11 @@ h1, #socialheader, #nametab {
     display: flex;
 }
 #nametab {
-    width: 30%;
+    width: 40%;
     float: left;
     font-size: 25px;
+    padding-left: 1%;
+    padding-right: 1%;
     background-color: #4aaaa5;
     color: white;
     font-weight: bolder;
