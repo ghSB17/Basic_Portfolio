@@ -1,0 +1,178 @@
+body{
+    color: #777777;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+section {
+    width:  100%;
+    background-color: white;
+}
+input {
+    width:100%;
+    background-color: white;
+    height:20px;
+}
+div {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+p {
+    line-height: 25px;
+}
+img {
+    margin-right: 30px;
+    float: left;
+}
+
+h1, #connect, #nametab {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.prompts {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.bigbox {
+    height:60px;
+}
+.button {
+    background-color: teal;
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+
+.border {
+    background-color: #DCDCDC;
+    /* width: 600px; */
+    height: 5px;
+}
+/* .strip {
+    height: 5px;
+    width: 100%;
+} */
+.big
+{
+    height: 5px;
+    margin-bottom: 15px;
+}
+.small {
+    height: 3px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.teal {
+    height: 10px;
+    background-color: teal;
+}
+
+
+.size {
+    width: 33%;
+    height: 33%;
+    margin: 0px;
+}
+
+.cent {
+    width: 80%;
+    font-size: 10px;
+    padding: 5px; 
+    /* margin: 10px auto; */
+    display: inline-block;
+    background-color: transparent;
+}
+#headertab { 
+    width: 960px;
+    margin: 0px auto;
+    display: flex;
+}
+#nametab {
+    width: 30%;
+    float: left;
+    font-size: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bolder;
+}
+#invisibletab {
+    width: 60%;
+    visibility: hidden;
+}
+#abouttab, #portfoliotab, #contacttab {
+    width: 10%;
+    float: right;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+#portfoliotab {
+    border-left: 2px solid #DCDCDC;
+    border-right: 2px solid #DCDCDC;
+    
+}
+#footer {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+#bckimg {
+    width: 100%;
+    background-color: brown;
+    background-image: url("../images/sandpaper_background.png");
+}
+#s2 {
+    background-color:transparent;
+    width: 960px;
+    margin: 0px auto;
+    display: flex;
+}
+#d1 {
+    float: left;
+    text-align: left;
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#d2 {
+    width: 40px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    float: left;
+}
+#d3 {
+    float: right;
+    width: 270px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    padding: 0%;
+}
+#c1{
+    background-color: white;
+    /* height: 30%; */
+    padding: 10px;
+}
+#connect {
+    width: 80%;
+    margin: 10px auto;
+    font-weight: bold;
+    text-align: left;
+}
