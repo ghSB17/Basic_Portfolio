@@ -62,21 +62,13 @@ h1, #socialheader, #nametab {
 .portfolioimgL, .portfolioimgR {
     width: 40%;
     display: inline-block;
-    position: relative;
     float: left;
+    position: relative;
     background-color: transparent;
 }
 .portfolioimgR {
     float: right;
 }
-
-/* .portfolioimgL:hover, .portfolioimgR:hover {
-    width: 36%;
-    color: darkgoldenrod;
-    text-decoration-color: darkgoldenrod;
-    opacity:3;
-} */
-
 .resize {
     margin: 0%;
     padding: 0%;
@@ -117,8 +109,6 @@ h1, #socialheader, #nametab {
     margin: 0px;
 }
 .smallimg:hover {
-    /* width: 32%;
-    height: 32%; */
     padding: 0%;
     border: 2px double darkgoldenrod;
 }
