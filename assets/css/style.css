@@ -232,7 +232,7 @@ h1, #socialheader, #nametab {
     display: relative; */
 }
 #stickyfooter {
-    display: relative;
+    /* display: relative; */
     bottom: 0%;
     position: sticky;
 }
